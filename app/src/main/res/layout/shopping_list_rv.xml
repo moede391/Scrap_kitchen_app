@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    app:barrierMargin="0dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false"
+    app:contentPadding="0dp">
+
+
+    <LinearLayout
+        android:id="@+id/shopping_list_item_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:background="@drawable/shopping_item_corners"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/s_got"
+            android:button="@drawable/custom_check_box"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="TextView"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/slist_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="@color/black" />-->
+
+        <TextView
+            android:id="@+id/slist_amount_metric"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:paddingRight="10dp"
+            android:text="TextView"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

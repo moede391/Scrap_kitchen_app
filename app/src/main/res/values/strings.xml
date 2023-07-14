@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Scrap Kitchen</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="title_meal_planner">Meal Planner</string>
+    <string name="title_shopping_list">Shopping List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_recipe">No Recipe Selected</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_shopping_item">Add Shopping Item</string>
+    <string name="welcome_blurb">
+        "Welcome to Scrap Kitchen!\n\n"
+        "Tap on a continent above to see a little bit about meals in the region and to explore "
+        "region specific recipes. Or click the button below to view all available recipes.\n\n"
+        "The bottom bar allows you to switch between this screen, meal planner view to see which "
+        "dishes you have planned for this week, and shopping list view to help you plan your supermarket "
+        trip!"
+
+    </string>
+
+    <string-array name="Metrics">
+        <item>Kg</item>
+        <item>L</item>
+        <item>Whole</item>
+    </string-array>
+    <string-array name="Days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="Categories">
+        <item>Produce &#127822;</item>
+        <item>Meats &amp; Seafood &#127831;</item>
+        <item>Baking Goods &#129480;</item>
+        <item>Frozen &#127846;</item>
+        <item>Pantry &#127851;</item>
+        <item>Bakery &#127838;</item>
+        <item>Dairy &#129371;</item>
+        <item>Misc &#129531;</item>
+    </string-array>
+
+    <string name="north_america_title">"North America"</string>
+    <string name="north_america_blurb">
+        "North America the land of opportunity! Since this area was mostly migrated by individuals "
+        "from all over the world the food influences range this much as well. The Caribbean was highly "
+        "influenced by African cuisine while America has taken a bit of everything with a massive "
+        "Italian community in New York to Asian influence in San Francisco and don't get me started "
+        "about those French up in Canada. I guess the only thing they can claim as their own is "
+        "Canadian poutine and sloppy joe’s but I think they can have that."
+    </string>
+
+    <string name="south_america_title">"South America"</string>
+    <string name="south_america_blurb">
+        "South American cuisine is actually a fusion of indigenous, Spanish and African influence. In central america you would find more european influence using maze, beans, tomatoes and are fresh flavorful and most of all colorful. Mexico is actually the only real country throughout that loves spicy food and incorporates the use of fresh chillies in mostly every dish so hope you like to get your sweet on!, The rest of the continent you will find africa and spanish written all over it with stews complemented with rice and beans, perfect for that sunday dinner."
+    </string>
+    <string name="europe_title">"Europe"</string>
+    <string name="europe_blurb">"As you can probably guess europe has a wide range of diversity within its eating culture since it is deep in history every you look. Countries like Germany and Poland have their own dishes as does Spain and Italy. Europe is more than a continent, it’s a land filled with dozens upon dozens of histories. Each has its own flavors and while some areas have more in common than others, each has its specialties as well. The French, for example, are known for their rich desserts. The Germans for their sausages, and the Italians for their pasta. It's all European!!!!"</string>
+    <string name="asia_title">"Asia"</string>
+    <string name="asia_blurb">
+        "Asia is the largest and most populous continent in the world so everywhere you go the local culture and history will be incorporated in the meals you eat. Asian cuisine loves the use of chillies, garlic, ginger, soy, and of course fluffy white rice and lots of it! Everybody around the world knows thai green currys, ramen from japan, sweet and sour from china or korean BBQ but people forget that the middle eat is actually apart of Asia which in itself has a completely different cuisine and culture, who doesn't love a kebab after a night out."
+    </string>
+    <string name="africa_title">"Africa"</string>
+    <string name="africa_blurb">"Africa is an extremely diverse continent, African cuisine can be broken down into a few distinct regions: Northern, Southern, Central, Eastern, and Western Africa. Northern Africa mostly uses seafood, goat, lamb or beef since it ranges along the mediterranean sea and influences of Morocco can be seen throughout. Southern Africa enjoys BBQ style meats served with seeds and vegetables. Central Africa is a harsh land and the really only spicy african foods can be found here growing their own chillies. Eastern Africa mostly produces cron based meals served with stew. Western Africa is very rice based meals served with mostly root based vegetables."</string>
+    <string name="oceania_title">"Oceania"</string>
+    <string name="oceania_blurb">"When you think of Oceania your mind goes straight to Australia and New Zealand and of course meat pies and Sunday roast but these two nations along with all the islands that occupy this massive continent are surrounded by water, so seafood is a huge part of all cuisine throughout. The smaller islands are mostly influenced by the countries that colonized them. For example, Fiji is influenced by India and the Philippines is influenced by Spain. This was one of the last continents to be settled which means influence from all around the world are found here but you won't find a better place to get a pavlova than right here in New Zealand."</string>
+    <string name="daySelector">Select Day</string>
+    <string name="add_to_shopping_list_option">Add to Shopping List</string>
+    <string name="add_to_meal_planner_option">Add to Meal Planner</string>
+    <string name="no_meal_assigned_to_this_day">Nothing here</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+
+</resources>

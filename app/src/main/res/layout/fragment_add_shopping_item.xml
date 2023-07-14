@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightGray"
+    >
+
+    <TextView
+        android:id="@+id/nameTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_border"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/categoryTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Category"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/text_border"
+        android:paddingLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/Categories" />
+
+    <TextView
+        android:id="@+id/metricTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Metric"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/metric"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="@dimen/input_height"
+        android:paddingLeft="15dp"
+        android:background="@drawable/text_border"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/Metrics" />
+
+    <TextView
+        android:id="@+id/amountTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Amount"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/input_height"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/text_border"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:paddingLeft="15dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="wrap_content"
+        android:text="Add Item" />
+</LinearLayout>
